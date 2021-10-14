@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "serve": "node bundler.js serve index.html",
+    "build": "node bundler.js build index.html"
+  },
+  "main": "server.js",
+  "config": {
+    "port": 60
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "parcel-bundler": "1.12.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "typescript": "4.1.3"
+  }
+}

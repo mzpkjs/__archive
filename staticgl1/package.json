@@ -1,0 +1,29 @@
+{
+  "name": "staticgl",
+  "version": "0.0.3",
+  "main": "./index.js",
+  "files": [
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "**/*.js",
+    "**/*.d.ts",
+    "**/*.d.ts.map",
+    "!source",
+    "!examples",
+    "!node_modules"
+  ],
+  "author": "Mateusz Pietrzak",
+  "license": "MIT",
+  "keywords": [
+    "WebGL"
+  ],
+  "scripts": {
+    "compile": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "tslib": "2.0.0",
+    "typescript": "3.9.5"
+  }
+}
